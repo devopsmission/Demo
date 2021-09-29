@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="eBanking">
+  <test name="eBanking-chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.eBanking.TestCase.TS_Login_Test"/>
+    </classes>
+  </test> 
+   <test name="eBanking-firefox">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="org.eBanking.TestCase.TS_Login_Test"/>
+    </classes>
+  </test>
+
+ 
+</suite>
